@@ -6,6 +6,8 @@ summary: The Base64-encoded contents of a file
 ---
 layout: default
 
+**Since: bnd 3.1**
+
 Retrieves the content of the file specified by FILEPATH and embeds it in the manifest in Base64-encoded form. E.g.:
 
     # construct a data: URL for an icon file (cf IETF RFC 2397)
